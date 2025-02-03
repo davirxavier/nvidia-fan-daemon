@@ -15,4 +15,4 @@ Example config file:
 
 In this example the fan speed will be 40% when the GPU's temperature is 30ºC, 100% for 70ºC and a calculated value for the curve in the in-between temperatures (~90% for 65ºC or ~50% for 40ºC, for example).
 
-After configuring your fan speed, run the ```install.sh``` script as sudo, this script will install and enable a system-wide service that will run on the background on startup using systemd (nvidia-fan-daemon.service).
+After configuring your fan speed, run the ```install.sh``` script as sudo, this script will install and enable a system-wide service that will run on the background on startup using systemd (nvidia-fan-daemon.service). You can run the install script anytime you change the fan curve, but you will need to run ```sudo systemctl daemon-reload``` ```sudo systemctl restart nvidia-fan-daemon``` or restart your computer for the changes to apply.
