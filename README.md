@@ -4,7 +4,7 @@ Extremely simple shell script to dynamically control a NVIDIA GPU fan speed base
 
 ## How to use
 
-Adjust the fan speed curve in the ```nvidia-fan-daemon-mapping.cfg``` file to your liking. The format is temperature in degrees celius in the left, one ":", the fan speed in percentages (eg 50 for 50%) for that temperature, a new line and the next entry (if any).
+Adjust the fan speed curve in the ```nvidia-fan-daemon-mapping.cfg``` file to your liking. The format is temperature in degrees celsius in the left, one ":", the fan speed in percentages (eg 50 for 50%) for that temperature, a new line and the next entry (if any).
 
 Example config file:
 
